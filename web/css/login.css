@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+.Form-input{
+    padding-left: 10px; 
+    height: 50px; 
+    margin-bottom: 10px;  
+    clear: both;
+}
+
+
+.inp {
+    border:none;
+    border-bottom: 1px solid #230846;
+    padding: 5px 10px;
+    outline: none;
+    background-color: transparent; 
+    color: rgb(15, 22, 22);  
+    font-size: 25px; 
+    height: 35px;  
+    width: 100%;
+    text-align: center;
+ }
+
+ ::placeholder {
+    color: rgb(239, 238, 245);
+    opacity: 1; /* Firefox */
+    text-align: center;
+  }
+ 
+ [placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 10s 0.0s ease; 
+    text-indent: -100%;
+    opacity: .9;
+    text-align: center;
+ }
+
+ .float{
+     float: left;
+     margin-left: 150px;
+     margin-top: 25px;
+ }
